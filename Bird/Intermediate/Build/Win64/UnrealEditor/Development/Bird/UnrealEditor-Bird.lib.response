@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Bird.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Bird.cpp.obj"
+"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\BirdGameModeBase.cpp.obj"
+"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Bird.init.gen.cpp.obj"
+"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\BirdGameModeBase.gen.cpp.obj"
+"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Default.rc2.res"
+/OUT:"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\UnrealEditor-Bird.lib"

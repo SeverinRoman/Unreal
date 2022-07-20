@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\ProgramFiles\\GitHub\\Unreal\\Bird\\Source\\Bird\\Bird.Build.cs",
+		"F:\\ProgramFiles\\GitHub\\Unreal\\Bird\\Source\\Bird.Target.cs",
+		"F:\\ProgramFiles\\GitHub\\Unreal\\Bird\\Source\\BirdEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\programfiles\\github\\unreal\\bird\\intermediate\\build\\win64\\unrealeditor\\inc\\bird\\birdgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\programfiles\\github\\unreal\\bird\\intermediate\\build\\win64\\birdeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\programfiles\\github\\unreal\\bird\\intermediate\\build\\win64\\unrealeditor\\development\\bird\\definitions.bird.h",
+            "f:\\programfiles\\github\\unreal\\bird\\source\\bird\\birdgamemodebase.h",
+            "f:\\programfiles\\unreal5\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "f:\\programfiles\\unreal5\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "f:\\programfiles\\unreal5\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "f:\\programfiles\\unreal5\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "f:\\programfiles\\github\\unreal\\bird\\intermediate\\build\\win64\\unrealeditor\\inc\\bird\\birdgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

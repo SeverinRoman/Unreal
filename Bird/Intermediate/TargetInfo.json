@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Bird",
+			"Path": "F:\\ProgramFiles\\GitHub\\Unreal\\Bird\\Source\\Bird.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BirdEditor",
+			"Path": "F:\\ProgramFiles\\GitHub\\Unreal\\Bird\\Source\\BirdEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
