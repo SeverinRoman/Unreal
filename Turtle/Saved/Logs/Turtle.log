@@ -1305,3 +1305,557 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.07.27-11.48.28:489][803]AssetCheck: New page: Asset Save: multiple assets
 [2022.07.27-11.48.28:489][803]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
 [2022.07.27-11.48.28:489][803]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.49.26:182][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.49.26:187][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.27-11.49.26:193][726]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/MainF1E4206C4ED62BF82654ADB26CBA98C4.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.49.26:202][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.49.26:212][726]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltDataF6C705F941ACC451D4C5529144D4D1C2.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.49.26:221][726]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.49.26:221][726]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.49.26:222][726]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.50.02:719][434]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/thirt/Desktop/197287_open3dmodel.com/197287_open3dmodel.com/open3dmodel (1).com_model/Models_G0901A041/turtle.FBX)
+[2022.07.27-11.50.02:742][434]LogFbx: Loading FBX Scene from C:/Users/thirt/Desktop/197287_open3dmodel.com/197287_open3dmodel.com/open3dmodel (1).com_model/Models_G0901A041/turtle.FBX
+[2022.07.27-11.50.02:753][434]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.27-11.50.30:030][434]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.07.27-11.50.30:069][434]LogFbxMaterialImport: Display: Unable to find Texture file E:\萌宠-莎\角色\乌龟\mon002_f.psd
+[2022.07.27-11.50.30:071][434]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.50.30:088][434]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2022.07.27-11.50.30:088][434]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.07.27-11.50.30:088][434]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.07.27-11.50.30:089][434]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.50.30:089][434]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.07.27-11.50.30:089][434]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.07.27-11.50.30:089][434]LogStaticMesh: Building static mesh turtle...
+[2022.07.27-11.50.30:146][434]LogStaticMesh: Built static mesh [0.06s] /Game/Meshes/turtle.turtle
+[2022.07.27-11.50.30:170][434]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.07.27-11.50.33:909][860]LogSlate: Window 'Message Log' being destroyed
+[2022.07.27-11.50.33:913][860]LogSlate: Window 'Message Log' being destroyed
+[2022.07.27-11.50.42:760][316]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/thirt/Desktop/197287_open3dmodel.com/197287_open3dmodel.com/open3dmodel (1).com_model/Models_G0901A041/mon002_f.png)
+[2022.07.27-11.50.42:772][316]LogTexture: Display: Building textures: mon002_f (AutoDXT, 512X512)
+[2022.07.27-11.50.49:100][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/mon002_f" FILE="../../../../../GitHub/Unreal/Turtle/Content/Textures/mon002_f.uasset" SILENT=true
+[2022.07.27-11.50.49:123][953]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/mon002_f98F6D33D41B7E986D4B8D590A1AB1C73.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Textures/mon002_f.uasset'
+[2022.07.27-11.50.49:194][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.07.27-11.50.49:205][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-11.50.49:209][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-11.50.49:237][953]AssetCheck: New page: Asset Save: mon002_f
+[2022.07.27-11.50.49:237][953]LogContentValidation: Display: Validating Texture2D /Game/Textures/mon002_f.mon002_f
+[2022.07.27-11.50.52:235][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Material__191" FILE="../../../../../GitHub/Unreal/Turtle/Content/Materials/Material__191.uasset" SILENT=true
+[2022.07.27-11.50.52:240][223]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Material__1913CBCB6FB435D6EAAF58D3691B624CD17.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Materials/Material__191.uasset'
+[2022.07.27-11.50.52:299][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.07.27-11.50.52:309][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-11.50.52:313][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-11.50.52:335][223]AssetCheck: New page: Asset Save: Material__191
+[2022.07.27-11.50.52:335][223]LogContentValidation: Display: Validating Material /Game/Materials/Material__191.Material__191
+[2022.07.27-11.50.55:505][498]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground)
+[2022.07.27-11.50.56:919][617]LogActorFactory: Actor Factory created turtle
+[2022.07.27-11.50.57:375][664]LogActorFactory: Actor Factory created turtle
+[2022.07.27-11.51.02:699][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.51.02:704][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.27-11.51.02:710][270]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main7BEBF2694124E4F45A958581E8B433D9.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.51.02:718][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.51.02:729][270]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltDataD58068964A75138701B2A0A85998BE6C.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.51.02:736][270]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.51.02:736][270]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.51.02:736][270]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.51.10:859][140]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Material__191.Material__191
+[2022.07.27-11.51.10:897][140]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.10:982][140]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.10:989][140]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.51.10:996][140]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.10:998][140]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.07.27-11.51.11:101][141]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.27-11.51.11:702][179]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2022.07.27-11.51.11:702][179]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.07.27-11.51.11:862][187]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.07.27-11.51.11:950][192]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.11:999][195]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.07.27-11.51.12:135][203]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.07.27-11.51.12:135][203]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.07.27-11.51.12:135][203]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.07.27-11.51.12:135][203]MaterialEditorStats: Texture samplers: 2/16
+[2022.07.27-11.51.22:823][206]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.22:829][206]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.51.22:838][206]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.22:840][206]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.07.27-11.51.22:843][206]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.07.27-11.51.23:335][232]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.07.27-11.51.23:356][233]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2022.07.27-11.51.23:532][243]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2022.07.27-11.51.23:603][247]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2022.07.27-11.51.23:623][248]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2022.07.27-11.51.23:668][251]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.07.27-11.51.23:685][252]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.07.27-11.51.23:685][252]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.07.27-11.51.23:792][259]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.07.27-11.51.23:819][260]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.07.27-11.51.23:819][260]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.07.27-11.51.23:819][260]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.07.27-11.51.23:819][260]MaterialEditorStats: Texture samplers: 2/16
+[2022.07.27-11.51.33:164][ 22]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.33:172][ 22]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.07.27-11.51.33:172][ 22]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.07.27-11.51.33:172][ 22]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.07.27-11.51.33:172][ 22]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.51.33:172][ 22]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.33:173][ 22]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.33:173][ 22]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.51.33:173][ 22]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.33:174][ 22]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.07.27-11.51.33:670][ 43]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2022.07.27-11.51.33:689][ 44]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.33:841][ 53]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.07.27-11.51.33:937][ 59]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.33:966][ 61]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.07.27-11.51.34:101][ 72]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.07.27-11.51.34:101][ 72]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.07.27-11.51.34:101][ 72]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.07.27-11.51.34:101][ 72]MaterialEditorStats: Texture samplers: 3/16
+[2022.07.27-11.51.34:101][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.07.27-11.51.34:101][ 72]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.07.27-11.51.37:442][447]LogMaterialEditor: Saving and Compiling material Material__191
+[2022.07.27-11.51.38:026][447]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.51.38:071][447]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.38:076][447]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.38:101][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.07.27-11.51.38:108][447]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.27-11.51.38:673][447]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.07.27-11.51.38:673][447]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.07.27-11.51.38:958][447]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.07.27-11.51.38:960][447]TextureStreamingBuild: Display: Compiling optional shaders took 0.860 seconds.
+[2022.07.27-11.51.38:978][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.07.27-11.51.39:786][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Material__191" FILE="../../../../../GitHub/Unreal/Turtle/Content/Materials/Material__191.uasset" SILENT=true
+[2022.07.27-11.51.39:791][447]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Material__1916ABE035A49BABB45B7EA70B2142D2704.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Materials/Material__191.uasset'
+[2022.07.27-11.51.39:820][447]AssetCheck: New page: Asset Save: Material__191
+[2022.07.27-11.51.39:820][447]LogContentValidation: Display: Validating Material /Game/Materials/Material__191.Material__191
+[2022.07.27-11.51.39:821][447]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.07.27-11.51.39:821][447]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.07.27-11.51.39:821][447]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.07.27-11.51.39:821][447]MaterialEditorStats: Texture samplers: 4/16
+[2022.07.27-11.51.39:821][447]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.07.27-11.51.39:821][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.07.27-11.51.44:082][764]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.51.44:111][765]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.44:612][795]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2022.07.27-11.51.44:975][825]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.07.27-11.51.44:975][825]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.07.27-11.51.44:975][825]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.07.27-11.51.44:975][825]MaterialEditorStats: Texture samplers: 3/16
+[2022.07.27-11.51.44:975][825]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.07.27-11.51.44:975][825]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.07.27-11.51.46:405][847]LogSlate: Window 'Message' being destroyed
+[2022.07.27-11.51.46:411][847]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/Material__191.Material__191
+(Selecting 'No' will cause all changes to be lost!)
+[2022.07.27-11.51.46:937][847]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.51.46:967][847]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.07.27-11.51.46:970][847]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.51.46:990][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.07.27-11.51.46:996][847]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.27-11.51.47:559][847]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.07.27-11.51.47:559][847]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2022.07.27-11.51.47:559][847]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.07.27-11.51.47:845][847]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2022.07.27-11.51.47:845][847]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2022.07.27-11.51.47:845][847]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.07.27-11.51.47:846][847]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.07.27-11.51.47:846][847]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2022.07.27-11.51.47:846][847]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2022.07.27-11.51.47:846][847]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.07.27-11.51.47:846][847]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2022.07.27-11.51.47:848][847]TextureStreamingBuild: Display: Compiling optional shaders took 0.856 seconds.
+[2022.07.27-11.51.47:855][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.07.27-11.51.47:880][847]LogSlate: Window 'Material__191' being destroyed
+[2022.07.27-11.51.47:884][847]LogSlate: Window 'Material__191' being destroyed
+[2022.07.27-11.51.47:910][847]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-11.51.47:910][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.51.48:344][876]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.07.27-11.51.56:558][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.51.56:563][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-11.51.56:569][843]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/MainF1D5939A448781234957529AD7115C30.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.51.56:577][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.51.56:587][843]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData6CD4C84147C34BFD18D9E28878894F46.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.51.56:595][843]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.51.56:595][843]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.51.56:595][843]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.52.10:499][424]LogContentBrowser: Attempting asset rename: Material__191 -> Turtle
+[2022.07.27-11.52.10:542][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Turtle" FILE="../../../../../GitHub/Unreal/Turtle/Content/Materials/Turtle.uasset" SILENT=true
+[2022.07.27-11.52.10:547][424]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Turtle1EFE8DF543B2BFF3DCE590A6A0A6D697.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Materials/Turtle.uasset'
+[2022.07.27-11.52.10:621][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.27-11.52.10:631][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.07.27-11.52.10:635][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.07.27-11.52.10:652][424]AssetCheck: New page: Asset Save: Turtle
+[2022.07.27-11.52.10:652][424]LogContentValidation: Display: Validating Material /Game/Materials/Turtle.Turtle
+[2022.07.27-11.52.16:123][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.52.16:128][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.07.27-11.52.16:133][ 62]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/MainA20EC8034099565EA96805831946D170.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.52.16:142][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.52.16:152][ 62]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltDataBCA1D6414DB83A859B690AB72834F424.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.52.16:159][ 62]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.52.16:159][ 62]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.52.16:159][ 62]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.52.17:398][207]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-11.52.17:402][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-11.52.17:402][207]PIE: New page: PIE session: Main (27 июл. 2022 г., 17:52:17)
+[2022.07.27-11.52.17:402][207]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-11.52.17:403][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001577s)
+[2022.07.27-11.52.17:404][207]LogAIModule: Creating AISystem for world Main
+[2022.07.27-11.52.17:404][207]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2022.07.27-11.52.17:404][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002839s)
+[2022.07.27-11.52.17:409][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.07.27-11.52.17:410][207]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-11.52.17:410][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-11.52.17:410][207]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-11.52.17:410][207]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-11.52.17:418][207]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-11.52.17:418][207]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-11.52.17:437][207]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-11.52.17:437][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-11.52.17:437][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-11.52.17:437][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-11.52.17:438][207]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-11.52.17:438][207]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-11.52.17:438][207]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-11.52.17:453][207]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-11.52.17:453][207]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-11.52.17:453][207]LogInit: FAudioDevice initialized.
+[2022.07.27-11.52.17:453][207]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2022.07.27-11.52.17:459][207]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-11.52.17:461][207]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-14.52.17
+[2022.07.27-11.52.17:461][207]LogWorld: Bringing up level for play took: 0.000385
+[2022.07.27-11.52.17:461][207]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.07.27-11.52.17:463][207]PIE: Server logged in
+[2022.07.27-11.52.17:464][207]PIE: Play in editor total start time 0,062 seconds.
+[2022.07.27-11.52.19:348][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-11.52.19:348][424]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-11.52.19:348][424]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-11.52.19:348][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.52.19:355][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-11.52.19:369][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.52.19:373][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-11.52.19:373][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-11.52.19:374][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-11.52.19:391][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-11.52.19:439][427]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.07.27-11.52.35:865][296]LogContentBrowser: Attempting asset rename: turtle -> Turtle
+[2022.07.27-11.52.35:900][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/turtle" FILE="../../../../../GitHub/Unreal/Turtle/Content/Meshes/turtle.uasset" SILENT=true
+[2022.07.27-11.52.35:914][296]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/turtleB3037CAB44942906D44E57915E2096F5.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Meshes/turtle.uasset'
+[2022.07.27-11.52.35:935][296]AssetCheck: New page: Asset Save: Turtle
+[2022.07.27-11.52.35:935][296]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/turtle.Turtle
+[2022.07.27-11.52.39:055][659]Cmd: DELETE
+[2022.07.27-11.52.39:055][659]Cmd: ACTOR DELETE
+[2022.07.27-11.52.39:056][659]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.07.27-11.52.39:061][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.27-11.52.39:063][659]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.07.27-11.52.41:539][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.07.27-11.52.45:137][897]LogSlate: Window 'Delete Assets' being destroyed
+[2022.07.27-11.52.45:149][897]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Meshes/turtle.Turtle
+[2022.07.27-11.52.45:491][897]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2022.07.27-11.52.45:519][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-11.52.45:524][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.07.27-11.52.45:528][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.07.27-11.52.49:846][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.52.49:850][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-11.52.49:856][348]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main0152E16646A75CED3FC8758D62EEE13D.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.52.49:864][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.52.49:876][348]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltDataF21C1F324968786B7E1293BF25206C53.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.52.49:884][348]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.52.49:884][348]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.52.49:885][348]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.53.06:154][232]LogContentBrowser: Attempting asset rename: mon002_f -> texture_turtle
+[2022.07.27-11.53.06:191][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/texture_turtle" FILE="../../../../../GitHub/Unreal/Turtle/Content/Textures/texture_turtle.uasset" SILENT=true
+[2022.07.27-11.53.06:198][232]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/texture_turtleCBE32A3A4DA35BC4C3C5F4BE4D449980.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Textures/texture_turtle.uasset'
+[2022.07.27-11.53.06:265][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.07.27-11.53.06:276][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.07.27-11.53.06:280][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.07.27-11.53.06:292][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Turtle" FILE="../../../../../GitHub/Unreal/Turtle/Content/Materials/Turtle.uasset" SILENT=true
+[2022.07.27-11.53.06:293][232]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/TurtleCC953AB2466AD8CA2BCCD6BD0159A63C.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Materials/Turtle.uasset'
+[2022.07.27-11.53.06:314][232]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.53.06:314][232]LogContentValidation: Display: Validating Texture2D /Game/Textures/texture_turtle.texture_turtle
+[2022.07.27-11.53.06:314][232]LogContentValidation: Display: Validating Material /Game/Materials/Turtle.Turtle
+[2022.07.27-11.53.20:700][581]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/thirt/Desktop/197287_open3dmodel.com/197287_open3dmodel.com/open3dmodel (1).com_model/Models_G0901A041/turtle.FBX)
+[2022.07.27-11.53.20:709][581]LogFbx: Loading FBX Scene from C:/Users/thirt/Desktop/197287_open3dmodel.com/197287_open3dmodel.com/open3dmodel (1).com_model/Models_G0901A041/turtle.FBX
+[2022.07.27-11.53.20:716][581]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.27-11.53.28:599][581]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.07.27-11.53.28:609][581]LogFbxMaterialImport: Display: Unable to find Texture file E:\萌宠-莎\角色\乌龟\mon002_f.psd
+[2022.07.27-11.53.28:610][581]LogMaterial: Display: Missing cached shader map for material Material__191, compiling. 
+[2022.07.27-11.53.28:627][581]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2022.07.27-11.53.28:627][581]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.07.27-11.53.28:627][581]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.07.27-11.53.28:627][581]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.07.27-11.53.28:627][581]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.07.27-11.53.28:627][581]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.07.27-11.53.28:627][581]LogStaticMesh: Building static mesh turtle...
+[2022.07.27-11.53.28:674][581]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/turtle.turtle
+[2022.07.27-11.53.28:695][581]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.07.27-11.53.30:464][776]LogSlate: Window 'Message Log' being destroyed
+[2022.07.27-11.53.30:470][776]LogSlate: Window 'Message Log' being destroyed
+[2022.07.27-11.53.31:687][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-11.53.32:552][911]LogSlate: Window 'Delete Assets' being destroyed
+[2022.07.27-11.53.32:692][911]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Meshes/Material__191.Material__191
+[2022.07.27-11.53.32:824][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-11.53.36:047][255]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/turtle.turtle
+[2022.07.27-11.53.41:333][775]LogSlate: Window 'turtle' being destroyed
+[2022.07.27-11.53.41:339][775]LogSlate: Window 'turtle' being destroyed
+[2022.07.27-11.53.41:341][775]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-11.53.41:341][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.53.43:370][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.53.43:375][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.27-11.53.43:381][  8]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main39109F7D43802ADFEDB7DEADC3735DF7.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.53.43:389][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.53.43:400][  8]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltDataA6E4572B4D4999E2043BAB8BED2ED2F7.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.53.43:407][  8]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.53.43:407][  8]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.53.43:407][  8]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.53.51:750][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.53.51:755][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.07.27-11.53.51:760][932]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/MainDE9199E54FF545627C07A4BEE92BBEE4.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.53.51:769][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.53.51:779][932]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData6066E940485B13062EB2D39EFA0F63D2.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.53.51:787][932]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.53.51:787][932]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.53.51:787][932]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.54.06:394][604]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.07.27-11.54.06:400][604]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.07.27-11.54.07:252][696]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2022.07.27-11.54.07:252][696]LogContentBrowser: End creating deferred item NewMaterial
+[2022.07.27-11.54.08:643][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.07.27-11.54.10:184][833]LogSlate: Window 'Delete Assets' being destroyed
+[2022.07.27-11.54.10:216][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-11.54.13:130][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.54.13:135][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-11.54.13:140][171]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main405108B647383B329DE6A38BBC415041.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.54.13:148][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.54.13:158][171]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData12961218447152317A6C21B7D2BCC0D6.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.54.13:166][171]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.54.13:166][171]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.54.13:166][171]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.54.24:678][381]LogActorFactory: Actor Factory created turtle
+[2022.07.27-11.54.24:850][394]LogActorFactory: Actor Factory created turtle
+[2022.07.27-11.54.33:930][433]MapCheck: New page: Map Check
+[2022.07.27-11.54.33:941][433]Cmd: MAP REBUILD ALLVISIBLE
+[2022.07.27-11.54.33:942][433]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.07.27-11.54.33:942][433]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2022.07.27-11.54.33:946][433]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.07.27-11.54.33:946][433]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.07.27-11.54.33:946][433]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.07.27-11.54.33:952][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.07.27-11.54.33:954][433]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.27-11.54.33:956][433]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.27-11.54.33:958][433]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.27-11.54.34:401][433]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.07.27-11.54.34:401][433]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.07.27-11.54.34:401][433]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.07.27-11.54.34:401][433]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.07.27-11.54.34:401][433]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.07.27-11.54.34:401][433]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.07.27-11.54.34:401][433]TextureStreamingBuild: Display: Compiling optional shaders took 0.447 seconds.
+[2022.07.27-11.54.34:403][433]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2022.07.27-11.54.34:404][433]TextureStreamingBuild: Display: Build Texture Streaming took 0.001 seconds.
+[2022.07.27-11.54.34:408][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-11.54.34:409][433]LightingResults: New page: Lighting Build - 27 июл. 2022 г., 17:54:34
+[2022.07.27-11.54.34:412][433]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.07.27-11.54.34:415][433]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.07.27-11.54.34:415][433]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.07.27-11.54.34:416][433]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.07.27-11.54.34:416][433]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17636
+[2022.07.27-11.54.38:990][433]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.07.27-11.54.38:990][433]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.07.27-11.54.38:990][433]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.07.27-11.54.38:990][433]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.07.27-11.54.38:990][433]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.07.27-11.54.38:990][433]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.07.27-11.54.39:092][433]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.07.27-11.54.39:093][433]MapCheck: New page: Main - 27 июл. 2022 г., 17:54:39
+[2022.07.27-11.54.39:093][433]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2022.07.27-11.54.39:094][433]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1,019ms to complete.
+[2022.07.27-11.54.39:095][433]LogEditorBuildUtils: Build time 0:05
+[2022.07.27-11.54.39:150][433]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Turtle, compiling. 
+[2022.07.27-11.54.39:152][433]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Turtle, compiling. 
+[2022.07.27-11.54.39:497][433]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.07.27-11.54.39:497][433]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.07.27-11.54.39:497][433]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.07.27-11.54.39:497][433]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.07.27-11.54.39:662][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.07.27-11.54.41:104][522]LightingResults: Warning: turtle Object has overlapping UVs.
+[2022.07.27-11.54.41:104][522]LightingResults: turtle Lightmap UV are overlapping by 11.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.07.27-11.54.41:152][527]Job is a success!
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.034s
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:      BrickData (all levels) 0.9Mb
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:      Bricks at depth
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:          1: 7.5% covering 25.0% of volume
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:          2: 92.0% covering 4.8% of volume
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:      Bricks in each level
+[2022.07.27-11.54.41:294][528]LogVolumetricLightmapImport:          Main 			 213 bricks 	 100.0% (Persistent Level)
+[2022.07.27-11.54.41:320][528]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2022.07.27-11.54.41:320][528]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2022.07.27-11.54.41:320][528]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2022.07.27-11.54.41:320][528]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2022.07.27-11.54.41:320][528]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2022.07.27-11.54.41:320][528]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X64)
+[2022.07.27-11.54.41:320][528]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 3 meshes in 2 LightmapResourceClusters (1.5 Meshes per cluster).
+[2022.07.27-11.54.41:325][528]LogMaterial: Display: Material /Game/Materials/Turtle.Turtle needed to have new flag set bUsedWithStaticLighting !
+[2022.07.27-11.54.41:327][528]LogMaterial: Display: Missing cached shader map for material Turtle, compiling. 
+[2022.07.27-11.54.41:352][528]Lightmass on PC: 1.06 sec total, 223 ms importing, 17 ms setup, 161 ms photons, 583 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 6.40 sec total, 505 ms processing.
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 21
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.07.27-11.54.41:356][528]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.07.27-11.54.41:357][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.07.27-11.54.41:412][528]LogStaticLightingSystem: Illumination: 6.93 sec (19 ms encoding lightmaps, 2 ms encoding shadowmaps)
+[2022.07.27-11.54.41:412][528]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.07.27-11.54.41:412][528]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.07.27-11.54.41:999][528]DumpUnbuiltLightIteractions
+[2022.07.27-11.54.41:999][528]Lights with unbuilt interactions: 0
+[2022.07.27-11.54.42:000][528]
+[2022.07.27-11.54.42:000][528]Primitives with unbuilt interactions: 0
+[2022.07.27-11.54.42:934][528]LogTexture: Display: Building textures: NewReflectionComponentTexture15C14F044A5AC22392764985DFF745AB (BGRA8, 128X128)
+[2022.07.27-11.54.42:960][529]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.07.27-11.54.42:960][529]MapCheck: New page: Main - 27 июл. 2022 г., 17:54:42
+[2022.07.27-11.54.42:960][529]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,183ms to complete.
+[2022.07.27-11.54.47:918][115]LogSlate: Window 'Message Log' being destroyed
+[2022.07.27-11.54.47:921][115]LogSlate: Window 'Message Log' being destroyed
+[2022.07.27-11.54.50:828][453]Cmd: MODE GRID=0
+[2022.07.27-11.54.53:481][738]Cmd: MODE GRID=1
+[2022.07.27-11.55.21:477][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.55.21:482][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.07.27-11.55.21:489][649]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/MainE2600710406A1258494B7B8F547C40B0.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.55.21:498][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.55.21:511][649]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData698C4B0C4B218A4CDB41368C5DA3E891.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.55.21:519][649]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.55.21:520][649]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.55.21:520][649]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.56.07:114][958]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.07.27-11.56.07:121][958]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.07.27-11.56.07:126][958]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.07.27-11.56.19:005][367]LogContentBrowser: Attempting asset rename: NewBlueprint -> Turtle
+[2022.07.27-11.56.19:011][367]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.07.27-11.56.20:486][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turtle.Turtle
+[2022.07.27-11.56.20:999][532]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.07.27-11.56.42:957][804]LogSlate: Window 'Turtle' being destroyed
+[2022.07.27-11.56.42:989][804]LogSlate: Window 'Turtle' being destroyed
+[2022.07.27-11.56.42:992][804]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-11.56.42:992][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.56.45:965][135]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turtle.Turtle
+[2022.07.27-11.56.47:868][316]LogSlate: Window 'Turtle' being destroyed
+[2022.07.27-11.56.47:876][316]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-11.56.47:876][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.56.47:922][316]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turtle.Turtle
+[2022.07.27-11.57.01:854][708]BlueprintLog: New page: Compile Turtle
+[2022.07.27-11.57.01:894][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.07.27-11.57.02:326][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../GitHub/Unreal/Turtle/Content/Blueprints/Turtle.uasset" SILENT=true
+[2022.07.27-11.57.02:334][739]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Turtle316EB1A84822468C9C7505A8DD85B01B.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Blueprints/Turtle.uasset'
+[2022.07.27-11.57.02:345][739]AssetCheck: New page: Asset Save: Turtle
+[2022.07.27-11.57.02:345][739]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Turtle.Turtle
+[2022.07.27-11.57.03:651][883]LogSlate: Window 'Turtle' being destroyed
+[2022.07.27-11.57.03:655][883]LogSlate: Window 'Turtle' being destroyed
+[2022.07.27-11.57.03:658][883]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-11.57.03:658][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-11.57.05:089][ 43]Cmd: DELETE
+[2022.07.27-11.57.05:089][ 43]Cmd: ACTOR DELETE
+[2022.07.27-11.57.05:090][ 43]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.07.27-11.57.05:107][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.07.27-11.57.05:108][ 43]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2022.07.27-11.57.16:974][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.57.16:989][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.07.27-11.57.16:996][253]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main4BD44F5F4BF21E77FE0D129BEC8E2C42.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.57.17:005][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.57.17:018][253]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData244D25494AB20F17265FF79AEF8A3A07.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.57.17:027][253]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.57.17:027][253]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.57.17:027][253]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.57.28:818][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.57.28:834][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.07.27-11.57.28:842][645]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main882CAAF84316686F2069499DB1A97609.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.57.28:850][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.57.28:863][645]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData0F21F5D2408EEDC4867AC19E5B3C48F2.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.57.28:873][645]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.57.28:873][645]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.57.28:873][645]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-11.58.00:508][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.27-11.58.00:523][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.07.27-11.58.00:530][295]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/MainC8FBF0BD44C581A3913FD8881AB8272A.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main.umap'
+[2022.07.27-11.58.00:540][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_BuiltData" FILE="../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset" SILENT=true
+[2022.07.27-11.58.00:553][295]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_BuiltData88C309964A6D5E989F92FB8F20F446E8.tmp' to '../../../../../GitHub/Unreal/Turtle/Content/Levels/Main_BuiltData.uasset'
+[2022.07.27-11.58.00:562][295]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.27-11.58.00:562][295]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-11.58.00:562][295]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
+[2022.07.27-12.08.00:864][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.27-12.08.00:866][388]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main' took 0.017
+[2022.07.27-12.08.00:868][388]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Green] ([1] browsable assets)...
+[2022.07.27-12.08.00:868][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Green]
+[2022.07.27-12.08.00:868][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Green" FILE="../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Materials/Green_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.07.27-12.08.00:869][388]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Green_Auto1CA940802476281C2F5170D8A44333C98.tmp' to '../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Materials/Green_Auto1.uasset'
+[2022.07.27-12.08.00:869][388]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Turtle] ([1] browsable assets)...
+[2022.07.27-12.08.00:870][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Turtle]
+[2022.07.27-12.08.00:870][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Turtle" FILE="../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Materials/Turtle_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.07.27-12.08.00:871][388]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Turtle_Auto14F9B369E44145C543E6FE7944A02011C.tmp' to '../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Materials/Turtle_Auto1.uasset'
+[2022.07.27-12.08.00:872][388]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/turtle] ([1] browsable assets)...
+[2022.07.27-12.08.00:881][388]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/turtle.turtle]
+[2022.07.27-12.08.00:881][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/turtle]
+[2022.07.27-12.08.00:881][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/turtle" FILE="../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Meshes/turtle_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.07.27-12.08.00:895][388]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/turtle_Auto1D6BB0C4342033F224898029F33BA164E.tmp' to '../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Meshes/turtle_Auto1.uasset'
+[2022.07.27-12.08.00:896][388]LogFileHelpers: Auto-saving content packages took 0.029
+[2022.07.27-12.47.35:833][470]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.07.27-12.47.35:833][470]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.07.27-12.50.19:903][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.07.27-12.50.19:912][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Levels/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.07.27-12.50.19:917][896]LogSavePackage: Moving '../../../../../GitHub/Unreal/Turtle/Saved/Main_Auto25D20E03647F3F3315B73BDAFA517793E.tmp' to '../../../../../GitHub/Unreal/Turtle/Saved/Autosaves/Game/Levels/Main_Auto2.umap'
+[2022.07.27-12.50.19:918][896]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main' took 0.033
+[2022.07.27-12.50.19:918][896]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
