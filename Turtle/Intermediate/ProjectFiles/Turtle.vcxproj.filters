@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Turtle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A411A0C4-7EC4-4F00-9344-7B21BD3BAE1C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Turtle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TurtleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{13EC0887-094F-42D4-A7B3-F08DC31F77BE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{1BEFF703-2E00-4B67-A624-9F0B56A9E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android">
+      <UniqueIdentifier>{3A164B9F-0ADA-44DC-A5F6-8CEC4B4432D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android\Config">
+      <UniqueIdentifier>{43F05282-4853-4C3A-98F2-0E73C8750CB8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Android\Config\AndroidEngine.ini">
+      <Filter>Platforms\Android\Config</Filter>
+    </None>
+    <Filter Include="Platforms\IOS">
+      <UniqueIdentifier>{B1E397DF-BA32-4031-8462-56D16C086484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\IOS\Config">
+      <UniqueIdentifier>{6CD95793-5F9B-4667-9FA2-FD0F91096E7A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\IOS\Config\IOSEngine.ini">
+      <Filter>Platforms\IOS\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Linux">
+      <UniqueIdentifier>{9006D21E-A734-4A7E-AFDE-DFF3BA8893CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Linux\Config">
+      <UniqueIdentifier>{01FF3F69-6D60-4AB8-B2DF-7F29C794995A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Linux\Config\LinuxEngine.ini">
+      <Filter>Platforms\Linux\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Mac">
+      <UniqueIdentifier>{A0DB8433-6F5E-4DCD-B8FC-DCEB921EB8B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Mac\Config">
+      <UniqueIdentifier>{1F428013-12C9-4B50-8FB8-CA5593D0B12A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Mac\Config\MacEngine.ini">
+      <Filter>Platforms\Mac\Config</Filter>
+    </None>
+    <Filter Include="Platforms\PS4">
+      <UniqueIdentifier>{BF6813EB-B5FC-44D6-A69A-DE2C166C3148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PS4\Config">
+      <UniqueIdentifier>{BF716895-77A3-4CB8-BAFD-5813DE86F627}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\PS4\Config\PS4Engine.ini">
+      <Filter>Platforms\PS4\Config</Filter>
+    </None>
+    <Filter Include="Platforms\PS5">
+      <UniqueIdentifier>{2CED0237-51D7-481A-9A8F-D423BF1768CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PS5\Config">
+      <UniqueIdentifier>{1199FCBB-A683-49B9-A085-DD9B893A593E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\PS5\Config\PS5Engine.ini">
+      <Filter>Platforms\PS5\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Switch">
+      <UniqueIdentifier>{F0E7724B-505D-4D36-B18D-F857B71173DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Switch\Config">
+      <UniqueIdentifier>{91EC068D-B500-433E-8687-EFEEF597E8A7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Switch\Config\SwitchEngine.ini">
+      <Filter>Platforms\Switch\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Windows">
+      <UniqueIdentifier>{65025B9A-7619-43A5-B574-B924A2199AB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Windows\Config">
+      <UniqueIdentifier>{DBE13FEC-96F6-4DF8-8746-D532C9C3FDDC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Windows\Config\WindowsEngine.ini">
+      <Filter>Platforms\Windows\Config</Filter>
+    </None>
+    <Filter Include="Platforms\XboxOne">
+      <UniqueIdentifier>{9A2E594C-1BD5-4F50-B871-1DAE30FE8D41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\XboxOne\Config">
+      <UniqueIdentifier>{1D2CD625-CC92-4781-A18E-2CA7678182B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\XboxOne\Config\XboxOneEngine.ini">
+      <Filter>Platforms\XboxOne\Config</Filter>
+    </None>
+    <Filter Include="Platforms\XSX">
+      <UniqueIdentifier>{CEDE56B2-2CA4-4B30-99F1-880D2138415A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\XSX\Config">
+      <UniqueIdentifier>{B225B1D2-A025-405D-B6BD-B9CD4B2CE904}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\XSX\Config\XSXEngine.ini">
+      <Filter>Platforms\XSX\Config</Filter>
+    </None>
+    <Filter Include="Source\Turtle">
+      <UniqueIdentifier>{0FFC058D-0B35-40D5-A981-E0FD449166B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Turtle\Turtle.Build.cs">
+      <Filter>Source\Turtle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Turtle\Turtle.cpp">
+      <Filter>Source\Turtle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Turtle\Turtle.h">
+      <Filter>Source\Turtle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Turtle\TurtleGameModeBase.cpp">
+      <Filter>Source\Turtle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Turtle\TurtleGameModeBase.h">
+      <Filter>Source\Turtle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

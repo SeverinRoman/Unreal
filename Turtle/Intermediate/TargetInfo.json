@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Turtle",
+			"Path": "F:\\ProgramFiles\\GitHub\\Unreal\\Turtle\\Source\\Turtle.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TurtleEditor",
+			"Path": "F:\\ProgramFiles\\GitHub\\Unreal\\Turtle\\Source\\TurtleEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
