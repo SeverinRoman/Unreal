@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTurtle_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE2465CA9,
-				0xA32D0640,
+				0x229C5E09,
+				0x05E50338,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
