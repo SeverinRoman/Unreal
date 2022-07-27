@@ -19,6 +19,12 @@ public:
 	UPROPERTY(EditAnywhere)
 	TArray<FString> strings;
 
+	UPROPERTY(EditAnywhere)
+	FString replacementIfOne;
+
+	UPROPERTY(EditAnywhere)
+	FString replacementIfTwo;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -29,4 +35,10 @@ public:
 
 	UFUNCTION()
 	void ShowArray();
+
+	UFUNCTION()
+	void ShowDebug(FString showString);
+
+	UFUNCTION()
+	int32 SymbolCount(FString text);
 };

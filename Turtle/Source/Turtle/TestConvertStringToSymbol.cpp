@@ -25,16 +25,54 @@ void ATestConvertStringToSymbol::BeginPlay()
 void ATestConvertStringToSymbol::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
 
+void ATestConvertStringToSymbol::ShowDebug(FString showString)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, showString);
+}
+
+int32 ATestConvertStringToSymbol::SymbolCount(FString text)
+{
+	int32 count = 0;
+	return count;
 }
 
 void ATestConvertStringToSymbol::ShowArray()
 {
-	for (int32 i = 0; i != strings.Num(); ++i)
+	for (int32 i = 0; i != strings.Num(); i++)
 	{
 		strings[i] = strings[i].ToLower();
-		
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, strings[i]);
+
+		FString result = "";
+		int32 count = 0;
+
+		for (int32 j = 0; j != strings[i].Len(); j++)
+		{
+
+			for (int32 k = 0; k != strings[i].Len(); k++)
+			{
+				if (strings[i][j] == strings[i][k])
+				{
+					count++;
+				}
+
+			}
+
+			if (count >= 2)
+			{
+				result += replacementIfTwo;
+			}
+			else
+			{
+				result += replacementIfOne;
+			}
+
+			count = 0;
+		}
+
+		ShowDebug(result);
+		ShowDebug(strings[i]);
 	}
 }
 
