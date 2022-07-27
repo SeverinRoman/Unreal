@@ -34,11 +34,14 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION()
-	void ShowArray();
+	void ShowResult();
 
 	UFUNCTION()
 	void ShowDebug(FString showString);
 
 	UFUNCTION()
-	int32 SymbolCount(FString text);
+	FString SymbolCount(FString text);
+
+	UFUNCTION()
+	FString WriteResult(int32 count);
 };

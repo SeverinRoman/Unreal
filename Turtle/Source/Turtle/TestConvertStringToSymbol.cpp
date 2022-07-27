@@ -18,7 +18,7 @@ void ATestConvertStringToSymbol::BeginPlay()
 {
 	Super::BeginPlay();
 
-	ShowArray();
+	ShowResult();
 }
 
 // Called every frame
@@ -32,44 +32,59 @@ void ATestConvertStringToSymbol::ShowDebug(FString showString)
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, showString);
 }
 
-int32 ATestConvertStringToSymbol::SymbolCount(FString text)
+FString ATestConvertStringToSymbol::SymbolCount(FString text)
 {
+	FString result;
 	int32 count = 0;
-	return count;
+
+	for (int32 j = 0; j != text.Len(); j++)
+	{
+
+		for (int32 k = 0; k != text.Len(); k++)
+		{
+			if (text[j] == text[k])
+			{
+				count++;
+			}
+
+		}
+
+		result += WriteResult(count);
+
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::FromInt(count));
+
+		count = 0;
+	}
+
+
+	return result;
 }
 
-void ATestConvertStringToSymbol::ShowArray()
+
+FString ATestConvertStringToSymbol::WriteResult(int32 count)
+{
+	FString result;
+
+	if (count >= 2)
+	{
+		result += replacementIfTwo;
+	}
+	else
+	{
+		result += replacementIfOne;
+	}
+	return result;
+}
+
+
+
+void ATestConvertStringToSymbol::ShowResult()
 {
 	for (int32 i = 0; i != strings.Num(); i++)
 	{
 		strings[i] = strings[i].ToLower();
 
-		FString result = "";
-		int32 count = 0;
-
-		for (int32 j = 0; j != strings[i].Len(); j++)
-		{
-
-			for (int32 k = 0; k != strings[i].Len(); k++)
-			{
-				if (strings[i][j] == strings[i][k])
-				{
-					count++;
-				}
-
-			}
-
-			if (count >= 2)
-			{
-				result += replacementIfTwo;
-			}
-			else
-			{
-				result += replacementIfOne;
-			}
-
-			count = 0;
-		}
+		FString result = SymbolCount(strings[i]);
 
 		ShowDebug(result);
 		ShowDebug(strings[i]);

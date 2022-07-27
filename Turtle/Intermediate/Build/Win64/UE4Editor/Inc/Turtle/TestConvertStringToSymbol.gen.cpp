@@ -18,12 +18,20 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Turtle();
 // End Cross Module References
+	DEFINE_FUNCTION(ATestConvertStringToSymbol::execWriteResult)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_count);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->WriteResult(Z_Param_count);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATestConvertStringToSymbol::execSymbolCount)
 	{
 		P_GET_PROPERTY(FStrProperty,Z_Param_text);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(int32*)Z_Param__Result=P_THIS->SymbolCount(Z_Param_text);
+		*(FString*)Z_Param__Result=P_THIS->SymbolCount(Z_Param_text);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(ATestConvertStringToSymbol::execShowDebug)
@@ -34,44 +42,23 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		P_THIS->ShowDebug(Z_Param_showString);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(ATestConvertStringToSymbol::execShowArray)
+	DEFINE_FUNCTION(ATestConvertStringToSymbol::execShowResult)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->ShowArray();
+		P_THIS->ShowResult();
 		P_NATIVE_END;
 	}
 	void ATestConvertStringToSymbol::StaticRegisterNativesATestConvertStringToSymbol()
 	{
 		UClass* Class = ATestConvertStringToSymbol::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "ShowArray", &ATestConvertStringToSymbol::execShowArray },
 			{ "ShowDebug", &ATestConvertStringToSymbol::execShowDebug },
+			{ "ShowResult", &ATestConvertStringToSymbol::execShowResult },
 			{ "SymbolCount", &ATestConvertStringToSymbol::execSymbolCount },
+			{ "WriteResult", &ATestConvertStringToSymbol::execWriteResult },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "TestConvertStringToSymbol.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATestConvertStringToSymbol, nullptr, "ShowArray", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics
 	{
@@ -105,15 +92,37 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TestConvertStringToSymbol.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATestConvertStringToSymbol, nullptr, "ShowResult", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics
 	{
 		struct TestConvertStringToSymbol_eventSymbolCount_Parms
 		{
 			FString text;
-			int32 ReturnValue;
+			FString ReturnValue;
 		};
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_text;
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -121,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::NewProp_text = { "text", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventSymbolCount_Parms, text), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventSymbolCount_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventSymbolCount_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::NewProp_text,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::NewProp_ReturnValue,
@@ -138,6 +147,42 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics
+	{
+		struct TestConvertStringToSymbol_eventWriteResult_Parms
+		{
+			int32 count;
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_count;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::NewProp_count = { "count", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventWriteResult_Parms, count), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventWriteResult_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::NewProp_count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TestConvertStringToSymbol.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATestConvertStringToSymbol, nullptr, "WriteResult", nullptr, nullptr, sizeof(TestConvertStringToSymbol_eventWriteResult_Parms), Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -174,9 +219,10 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Turtle,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATestConvertStringToSymbol_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_ShowArray, "ShowArray" }, // 3696157078
 		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug, "ShowDebug" }, // 2328233851
-		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount, "SymbolCount" }, // 3366378793
+		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult, "ShowResult" }, // 1243967279
+		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount, "SymbolCount" }, // 1179664788
+		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult, "WriteResult" }, // 2542129307
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATestConvertStringToSymbol_Statics::Class_MetaDataParams[] = {
@@ -239,7 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATestConvertStringToSymbol, 1324224867);
+	IMPLEMENT_CLASS(ATestConvertStringToSymbol, 4105476646);
 	template<> TURTLE_API UClass* StaticClass<ATestConvertStringToSymbol>()
 	{
 		return ATestConvertStringToSymbol::StaticClass();

@@ -16,16 +16,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Turtle_Source_Turtle_TestConvertStringToSymbol_h_13_SPARSE_DATA
 #define Turtle_Source_Turtle_TestConvertStringToSymbol_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execWriteResult); \
 	DECLARE_FUNCTION(execSymbolCount); \
 	DECLARE_FUNCTION(execShowDebug); \
-	DECLARE_FUNCTION(execShowArray);
+	DECLARE_FUNCTION(execShowResult);
 
 
 #define Turtle_Source_Turtle_TestConvertStringToSymbol_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execWriteResult); \
 	DECLARE_FUNCTION(execSymbolCount); \
 	DECLARE_FUNCTION(execShowDebug); \
-	DECLARE_FUNCTION(execShowArray);
+	DECLARE_FUNCTION(execShowResult);
 
 
 #define Turtle_Source_Turtle_TestConvertStringToSymbol_h_13_INCLASS_NO_PURE_DECLS \

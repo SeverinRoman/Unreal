@@ -1364,3 +1364,755 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.07.27-19.54.58:631][820]AssetCheck: New page: Asset Save: multiple assets
 [2022.07.27-19.54.58:631][820]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Main_BuiltData.Main_BuiltData
 [2022.07.27-19.54.58:631][820]LogContentValidation: Display: Validating World /Game/Levels/Main.Main
+[2022.07.27-19.59.57:353][107]Candidate modules for hot reload:
+[2022.07.27-19.59.57:353][107]  Turtle
+[2022.07.27-19.59.57:353][107]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,9905 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-19.59.57:653][107]Warning: Starting HotReload took  0.3s.
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:00:09
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Parsing headers for TurtleEditor
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   Running UnrealHeaderTool "F:\ProgramFiles\GitHub\Unreal\Turtle\Turtle.uproject" "F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\TurtleEditor\Development\TurtleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thirt\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Reflection code generated for TurtleEditor in 4,9460442 seconds
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   [1/6] Turtle.init.gen.cpp
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   [2/6] TestConvertStringToSymbol.cpp
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   [3/6] TestConvertStringToSymbol.gen.cpp
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   [4/6] UE4Editor-Turtle-9905.lib
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9905.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9905.exp
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   [5/6] UE4Editor-Turtle-9905.dll
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9905.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9905.suppressed.exp
+[2022.07.27-20.00.09:295][486]CompilerResultsLog:   [6/6] TurtleEditor.target
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Total time in Parallel executor: 5,82 seconds
+[2022.07.27-20.00.09:295][486]CompilerResultsLog: Total execution time: 11,51 seconds
+[2022.07.27-20.00.09:295][486]LogMainFrame: MainFrame: Module compiling took 11.946 seconds
+[2022.07.27-20.00.09:314][486]LogClass: Could not find existing class TestConvertStringToSymbol in package /Script/Turtle for HotReload, assuming new class
+[2022.07.27-20.00.09:314][486]LogClass: Function ShowArray is new.
+[2022.07.27-20.00.09:314][486]LogClass: Function ShowDebug is new.
+[2022.07.27-20.00.09:314][486]LogClass: Function SymbolCount is new.
+[2022.07.27-20.00.09:318][486]LogHotReload: Re-instancing TestConvertStringToSymbol after hot-reload.
+[2022.07.27-20.00.09:325][486]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.00.09:326][486]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.00.09:356][486]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.00.09:356][486]Display: HotReload took 12.0s.
+[2022.07.27-20.00.10:831][651]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.00.10:837][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.00.10:837][651]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:00:10)
+[2022.07.27-20.00.10:837][651]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.00.10:839][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001718s)
+[2022.07.27-20.00.10:840][651]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.00.10:840][651]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2022.07.27-20.00.10:840][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002799s)
+[2022.07.27-20.00.10:844][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.07.27-20.00.10:845][651]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.00.10:845][651]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.00.10:845][651]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.00.10:845][651]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.00.10:853][651]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.00.10:853][651]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.00.10:872][651]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.00.10:872][651]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.00.10:872][651]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.00.10:872][651]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.00.10:873][651]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.00.10:873][651]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.00.10:873][651]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.00.10:886][651]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.00.10:886][651]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.00.10:886][651]LogInit: FAudioDevice initialized.
+[2022.07.27-20.00.10:886][651]LogAudio: Display: Audio Device (ID: 11) registered with world 'Main'.
+[2022.07.27-20.00.10:897][651]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.00.10:898][651]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.00.10
+[2022.07.27-20.00.10:898][651]LogWorld: Bringing up level for play took: 0.000476
+[2022.07.27-20.00.10:898][651]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.07.27-20.00.10:900][651]PIE: Server logged in
+[2022.07.27-20.00.10:901][651]PIE: Play in editor total start time 0,065 seconds.
+[2022.07.27-20.00.12:661][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.00.12:661][845]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.00.12:662][845]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.00.12:662][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.00.12:670][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.00.12:672][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.00.12:676][845]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.00.12:676][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.00.12:677][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.00.12:692][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.00.12:693][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.07.27-20.00.12:748][849]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.07.27-20.09.50:391][850]Candidate modules for hot reload:
+[2022.07.27-20.09.50:391][850]  Turtle
+[2022.07.27-20.09.50:391][850]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,3776 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.09.50:669][850]Warning: Starting HotReload took  0.3s.
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:10:00
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Parsing headers for TurtleEditor
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   Running UnrealHeaderTool "F:\ProgramFiles\GitHub\Unreal\Turtle\Turtle.uproject" "F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\TurtleEditor\Development\TurtleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thirt\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Reflection code generated for TurtleEditor in 4,1590179 seconds
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   [1/6] Turtle.init.gen.cpp
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   [2/6] TestConvertStringToSymbol.cpp
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   [3/6] TestConvertStringToSymbol.gen.cpp
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   [4/6] UE4Editor-Turtle-3776.lib
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-3776.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-3776.exp
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   [5/6] UE4Editor-Turtle-3776.dll
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-3776.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-3776.suppressed.exp
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog:   [6/6] TurtleEditor.target
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Total time in Parallel executor: 5,01 seconds
+[2022.07.27-20.10.00:692][ 33]CompilerResultsLog: Total execution time: 9,88 seconds
+[2022.07.27-20.10.00:692][ 33]LogMainFrame: MainFrame: Module compiling took 10.305 seconds
+[2022.07.27-20.10.00:710][ 33]LogClass: Could not find existing class TestConvertStringToSymbol in package /Script/Turtle for HotReload, assuming new class
+[2022.07.27-20.10.00:710][ 33]LogClass: Function ShowArray is new.
+[2022.07.27-20.10.00:710][ 33]LogClass: Function ShowDebug is new.
+[2022.07.27-20.10.00:710][ 33]LogClass: Function SymbolCount is new.
+[2022.07.27-20.10.00:710][ 33]LogClass: Function WriteOutput is new.
+[2022.07.27-20.10.00:714][ 33]LogHotReload: Re-instancing TestConvertStringToSymbol after hot-reload.
+[2022.07.27-20.10.00:721][ 33]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.10.00:722][ 33]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.10.00:751][ 33]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.10.00:751][ 33]Display: HotReload took 10.4s.
+[2022.07.27-20.10.03:535][342]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.10.03:540][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.10.03:540][342]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:10:03)
+[2022.07.27-20.10.03:540][342]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.10.03:542][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001727s)
+[2022.07.27-20.10.03:543][342]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.10.03:543][342]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2022.07.27-20.10.03:543][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002951s)
+[2022.07.27-20.10.03:548][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.27-20.10.03:548][342]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.10.03:548][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.10.03:548][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.10.03:548][342]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.10.03:549][342]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.10.03:557][342]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.10.03:557][342]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.10.03:576][342]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.10.03:577][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.10.03:577][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.10.03:577][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.10.03:577][342]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.10.03:577][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.10.03:577][342]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.10.03:591][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.10.03:591][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.10.03:591][342]LogInit: FAudioDevice initialized.
+[2022.07.27-20.10.03:591][342]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main'.
+[2022.07.27-20.10.03:597][342]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.10.03:598][342]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.10.03
+[2022.07.27-20.10.03:598][342]LogWorld: Bringing up level for play took: 0.000482
+[2022.07.27-20.10.03:598][342]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.07.27-20.10.03:600][342]PIE: Server logged in
+[2022.07.27-20.10.03:601][342]PIE: Play in editor total start time 0,062 seconds.
+[2022.07.27-20.10.09:371][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.10.09:371][ 23]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.10.09:372][ 23]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.10.09:372][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.10.09:381][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.10.09:384][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.10.09:388][ 23]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.10.09:388][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.10.09:389][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.10.09:404][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.10.09:406][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-20.10.09:468][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.07.27-20.21.31:148][374]Candidate modules for hot reload:
+[2022.07.27-20.21.31:148][374]  Turtle
+[2022.07.27-20.21.31:148][374]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,6351 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.21.31:418][374]Warning: Starting HotReload took  0.3s.
+[2022.07.27-20.21.41:428][553]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:21:41
+[2022.07.27-20.21.41:428][553]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Parsing headers for TurtleEditor
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   Running UnrealHeaderTool "F:\ProgramFiles\GitHub\Unreal\Turtle\Turtle.uproject" "F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\TurtleEditor\Development\TurtleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thirt\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Reflection code generated for TurtleEditor in 4,2229061 seconds
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   [1/6] Turtle.init.gen.cpp
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   [2/6] TestConvertStringToSymbol.cpp
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   [3/6] TestConvertStringToSymbol.gen.cpp
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   [4/6] UE4Editor-Turtle-6351.lib
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-6351.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-6351.exp
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   [5/6] UE4Editor-Turtle-6351.dll
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-6351.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-6351.suppressed.exp
+[2022.07.27-20.21.41:429][553]CompilerResultsLog:   [6/6] TurtleEditor.target
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Total time in Parallel executor: 4,96 seconds
+[2022.07.27-20.21.41:429][553]CompilerResultsLog: Total execution time: 9,89 seconds
+[2022.07.27-20.21.41:429][553]LogMainFrame: MainFrame: Module compiling took 10.296 seconds
+[2022.07.27-20.21.41:449][553]LogClass: Could not find existing class TestConvertStringToSymbol in package /Script/Turtle for HotReload, assuming new class
+[2022.07.27-20.21.41:449][553]LogClass: Function CountSymbolInString is new.
+[2022.07.27-20.21.41:449][553]LogClass: Function ShowDebug is new.
+[2022.07.27-20.21.41:449][553]LogClass: Function ShowResult is new.
+[2022.07.27-20.21.41:449][553]LogClass: Function SymbolCount is new.
+[2022.07.27-20.21.41:452][553]LogHotReload: Re-instancing TestConvertStringToSymbol after hot-reload.
+[2022.07.27-20.21.41:460][553]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.21.41:460][553]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.21.41:490][553]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.21.41:490][553]Display: HotReload took 10.4s.
+[2022.07.27-20.21.43:124][737]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.21.43:128][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.21.43:128][737]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:21:43)
+[2022.07.27-20.21.43:128][737]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.21.43:130][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001842s)
+[2022.07.27-20.21.43:132][737]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.21.43:132][737]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2022.07.27-20.21.43:132][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.003490s)
+[2022.07.27-20.21.43:136][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.07.27-20.21.43:137][737]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.21.43:137][737]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.21.43:137][737]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.21.43:137][737]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.21.43:146][737]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.21.43:146][737]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.21.43:165][737]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.21.43:165][737]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.21.43:165][737]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.21.43:165][737]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.21.43:165][737]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.21.43:165][737]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.21.43:165][737]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.21.43:179][737]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.21.43:179][737]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.21.43:179][737]LogInit: FAudioDevice initialized.
+[2022.07.27-20.21.43:179][737]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main'.
+[2022.07.27-20.21.43:189][737]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.21.43:190][737]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.21.43
+[2022.07.27-20.21.43:190][737]LogWorld: Bringing up level for play took: 0.000476
+[2022.07.27-20.21.43:190][737]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.07.27-20.21.43:192][737]PIE: Server logged in
+[2022.07.27-20.21.43:193][737]PIE: Play in editor total start time 0,065 seconds.
+[2022.07.27-20.21.44:481][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.21.44:481][885]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.21.44:481][885]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.21.44:481][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.21.44:499][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.21.44:502][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.21.44:506][885]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.21.44:506][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.21.44:507][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.21.44:522][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.21.44:523][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.07.27-20.21.44:592][890]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.07.27-20.25.51:433][970]Candidate modules for hot reload:
+[2022.07.27-20.25.51:433][970]  Turtle
+[2022.07.27-20.25.51:433][970]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,77 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.25.51:706][970]Warning: Starting HotReload took  0.3s.
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:26:01
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Parsing headers for TurtleEditor
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   Running UnrealHeaderTool "F:\ProgramFiles\GitHub\Unreal\Turtle\Turtle.uproject" "F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\TurtleEditor\Development\TurtleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thirt\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Reflection code generated for TurtleEditor in 4,167607 seconds
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   [1/6] Turtle.init.gen.cpp
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   [2/6] TestConvertStringToSymbol.cpp
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   [3/6] TestConvertStringToSymbol.gen.cpp
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   [4/6] UE4Editor-Turtle-0077.lib
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0077.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0077.exp
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   [5/6] UE4Editor-Turtle-0077.dll
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0077.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0077.suppressed.exp
+[2022.07.27-20.26.01:752][111]CompilerResultsLog:   [6/6] TurtleEditor.target
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Total time in Parallel executor: 5,04 seconds
+[2022.07.27-20.26.01:752][111]CompilerResultsLog: Total execution time: 9,90 seconds
+[2022.07.27-20.26.01:752][111]LogMainFrame: MainFrame: Module compiling took 10.323 seconds
+[2022.07.27-20.26.01:764][111]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.26.01:764][111]Display: HotReload took 10.3s.
+[2022.07.27-20.26.03:056][238]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.26.03:060][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.26.03:061][238]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:26:03)
+[2022.07.27-20.26.03:061][238]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.26.03:062][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001722s)
+[2022.07.27-20.26.03:063][238]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.26.03:064][238]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2022.07.27-20.26.03:064][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.003024s)
+[2022.07.27-20.26.03:068][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.27-20.26.03:069][238]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.26.03:069][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.26.03:069][238]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.26.03:069][238]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.26.03:077][238]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.26.03:077][238]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.26.03:097][238]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.26.03:097][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.26.03:097][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.26.03:097][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.26.03:097][238]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.26.03:097][238]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.26.03:097][238]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.26.03:111][238]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.26.03:111][238]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.26.03:111][238]LogInit: FAudioDevice initialized.
+[2022.07.27-20.26.03:111][238]LogAudio: Display: Audio Device (ID: 14) registered with world 'Main'.
+[2022.07.27-20.26.03:121][238]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.26.03:122][238]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.26.03
+[2022.07.27-20.26.03:122][238]LogWorld: Bringing up level for play took: 0.000399
+[2022.07.27-20.26.03:123][238]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.07.27-20.26.03:124][238]PIE: Server logged in
+[2022.07.27-20.26.03:125][238]PIE: Play in editor total start time 0,065 seconds.
+[2022.07.27-20.26.07:720][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.26.07:720][780]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.26.07:720][780]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.26.07:720][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.26.07:728][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.26.07:731][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.26.07:736][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.26.07:736][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.26.07:737][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.26.07:753][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-20.26.07:813][785]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.07.27-20.26.34:397][248]Candidate modules for hot reload:
+[2022.07.27-20.26.34:397][248]  Turtle
+[2022.07.27-20.26.34:397][248]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,8957 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.26.34:402][248]Warning: Starting HotReload took  0.0s.
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:26:36
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.07.27-20.26.36:430][449]CompilerResultsLog:   [1/4] TestConvertStringToSymbol.cpp
+[2022.07.27-20.26.36:430][449]CompilerResultsLog:   [2/4] UE4Editor-Turtle-8957.lib
+[2022.07.27-20.26.36:430][449]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8957.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8957.exp
+[2022.07.27-20.26.36:430][449]CompilerResultsLog:   [3/4] UE4Editor-Turtle-8957.dll
+[2022.07.27-20.26.36:430][449]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8957.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8957.suppressed.exp
+[2022.07.27-20.26.36:430][449]CompilerResultsLog:   [4/4] TurtleEditor.target
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: Total time in Parallel executor: 1,37 seconds
+[2022.07.27-20.26.36:430][449]CompilerResultsLog: Total execution time: 1,92 seconds
+[2022.07.27-20.26.36:430][449]LogMainFrame: MainFrame: Module compiling took 2.036 seconds
+[2022.07.27-20.26.36:449][449]LogClass: Could not find existing class TestConvertStringToSymbol in package /Script/Turtle for HotReload, assuming new class
+[2022.07.27-20.26.36:449][449]LogClass: Function ShowDebug is new.
+[2022.07.27-20.26.36:449][449]LogClass: Function ShowResult is new.
+[2022.07.27-20.26.36:449][449]LogClass: Function SymbolCount is new.
+[2022.07.27-20.26.36:451][449]LogHotReload: Re-instancing TestConvertStringToSymbol after hot-reload.
+[2022.07.27-20.26.36:458][449]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.26.36:459][449]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.26.36:488][449]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.26.36:488][449]Display: HotReload took  2.1s.
+[2022.07.27-20.26.41:494][ 20]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.26.41:498][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.26.41:498][ 20]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:26:41)
+[2022.07.27-20.26.41:498][ 20]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.26.41:500][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001573s)
+[2022.07.27-20.26.41:501][ 20]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.26.41:501][ 20]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2022.07.27-20.26.41:501][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002682s)
+[2022.07.27-20.26.41:506][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-20.26.41:506][ 20]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.26.41:506][ 20]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.26.41:506][ 20]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.26.41:506][ 20]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.26.41:514][ 20]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.26.41:514][ 20]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.26.41:533][ 20]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.26.41:547][ 20]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.26.41:547][ 20]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.26.41:547][ 20]LogInit: FAudioDevice initialized.
+[2022.07.27-20.26.41:547][ 20]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main'.
+[2022.07.27-20.26.41:556][ 20]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.26.41:557][ 20]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.26.41
+[2022.07.27-20.26.41:557][ 20]LogWorld: Bringing up level for play took: 0.000441
+[2022.07.27-20.26.41:557][ 20]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.07.27-20.26.41:559][ 20]PIE: Server logged in
+[2022.07.27-20.26.41:560][ 20]PIE: Play in editor total start time 0,062 seconds.
+[2022.07.27-20.26.48:370][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.26.48:370][833]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.26.48:370][833]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.26.48:370][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.26.48:375][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.26.48:378][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.26.48:382][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.26.48:382][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.26.48:383][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.26.48:398][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.26.48:399][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-20.26.48:462][839]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.07.27-20.32.22:524][431]Candidate modules for hot reload:
+[2022.07.27-20.32.22:524][431]  Turtle
+[2022.07.27-20.32.22:524][431]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,2331 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.32.22:809][431]Warning: Starting HotReload took  0.3s.
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:32:32
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Parsing headers for TurtleEditor
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   Running UnrealHeaderTool "F:\ProgramFiles\GitHub\Unreal\Turtle\Turtle.uproject" "F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\TurtleEditor\Development\TurtleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thirt\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Reflection code generated for TurtleEditor in 4,049318 seconds
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   [1/6] Turtle.init.gen.cpp
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   [2/6] TestConvertStringToSymbol.cpp
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   [3/6] TestConvertStringToSymbol.gen.cpp
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   [4/6] UE4Editor-Turtle-2331.lib
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-2331.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-2331.exp
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   [5/6] UE4Editor-Turtle-2331.dll
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-2331.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-2331.suppressed.exp
+[2022.07.27-20.32.32:546][574]CompilerResultsLog:   [6/6] TurtleEditor.target
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Total time in Parallel executor: 4,87 seconds
+[2022.07.27-20.32.32:546][574]CompilerResultsLog: Total execution time: 9,57 seconds
+[2022.07.27-20.32.32:546][574]LogMainFrame: MainFrame: Module compiling took 10.025 seconds
+[2022.07.27-20.32.32:565][574]LogClass: Could not find existing class TestConvertStringToSymbol in package /Script/Turtle for HotReload, assuming new class
+[2022.07.27-20.32.32:565][574]LogClass: Function ShowDebug is new.
+[2022.07.27-20.32.32:565][574]LogClass: Function ShowResult is new.
+[2022.07.27-20.32.32:565][574]LogClass: Function SymbolCount is new.
+[2022.07.27-20.32.32:565][574]LogClass: Function WriteResult is new.
+[2022.07.27-20.32.32:568][574]LogHotReload: Re-instancing TestConvertStringToSymbol after hot-reload.
+[2022.07.27-20.32.32:576][574]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.32.32:577][574]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.32.32:607][574]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.32.32:607][574]Display: HotReload took 10.1s.
+[2022.07.27-20.32.34:641][798]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.32.34:645][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.32.34:645][798]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:32:34)
+[2022.07.27-20.32.34:645][798]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.32.34:647][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001737s)
+[2022.07.27-20.32.34:648][798]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.32.34:648][798]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2022.07.27-20.32.34:648][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002902s)
+[2022.07.27-20.32.34:653][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.07.27-20.32.34:653][798]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.32.34:653][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.32.34:653][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.32.34:654][798]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.32.34:654][798]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.32.34:662][798]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.32.34:662][798]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.32.34:681][798]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.32.34:681][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.32.34:681][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.32.34:681][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.32.34:682][798]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.32.34:682][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.32.34:682][798]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.32.34:695][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.32.34:695][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.32.34:695][798]LogInit: FAudioDevice initialized.
+[2022.07.27-20.32.34:695][798]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main'.
+[2022.07.27-20.32.34:704][798]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.32.34:705][798]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.32.34
+[2022.07.27-20.32.34:706][798]LogWorld: Bringing up level for play took: 0.000524
+[2022.07.27-20.32.34:706][798]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.07.27-20.32.34:708][798]PIE: Server logged in
+[2022.07.27-20.32.34:708][798]PIE: Play in editor total start time 0,064 seconds.
+[2022.07.27-20.32.40:070][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.32.40:070][427]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.32.40:070][427]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.32.40:070][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.32.40:078][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.32.40:082][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.32.40:086][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.32.40:086][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.32.40:087][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.32.40:102][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.32.40:103][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-20.32.40:165][433]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.07.27-20.32.41:160][544]Candidate modules for hot reload:
+[2022.07.27-20.32.41:160][544]  Turtle
+[2022.07.27-20.32.41:160][544]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,8150 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.32.41:165][544]Warning: Starting HotReload took  0.0s.
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:32:42
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.07.27-20.32.42:613][673]CompilerResultsLog:   [1/3] UE4Editor-Turtle-8150.lib
+[2022.07.27-20.32.42:613][673]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8150.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8150.exp
+[2022.07.27-20.32.42:613][673]CompilerResultsLog:   [2/3] UE4Editor-Turtle-8150.dll
+[2022.07.27-20.32.42:613][673]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8150.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-8150.suppressed.exp
+[2022.07.27-20.32.42:613][673]CompilerResultsLog:   [3/3] TurtleEditor.target
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: Total time in Parallel executor: 0,81 seconds
+[2022.07.27-20.32.42:613][673]CompilerResultsLog: Total execution time: 1,35 seconds
+[2022.07.27-20.32.42:613][673]LogMainFrame: MainFrame: Module compiling took 1.457 seconds
+[2022.07.27-20.32.42:633][673]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.32.42:634][673]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.32.42:662][673]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.32.42:662][673]Display: HotReload took  1.5s.
+[2022.07.27-20.32.44:305][858]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.32.44:310][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.32.44:311][858]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:32:44)
+[2022.07.27-20.32.44:311][858]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.32.44:312][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001528s)
+[2022.07.27-20.32.44:313][858]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.32.44:313][858]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2022.07.27-20.32.44:313][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002558s)
+[2022.07.27-20.32.44:318][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-20.32.44:318][858]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.32.44:318][858]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.32.44:318][858]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.32.44:318][858]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.32.44:326][858]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.32.44:326][858]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.32.44:345][858]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.32.44:345][858]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.32.44:345][858]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.32.44:345][858]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.32.44:345][858]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.32.44:345][858]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.32.44:345][858]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.32.44:359][858]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.32.44:359][858]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.32.44:359][858]LogInit: FAudioDevice initialized.
+[2022.07.27-20.32.44:359][858]LogAudio: Display: Audio Device (ID: 17) registered with world 'Main'.
+[2022.07.27-20.32.44:365][858]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.32.44:366][858]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.32.44
+[2022.07.27-20.32.44:366][858]LogWorld: Bringing up level for play took: 0.000412
+[2022.07.27-20.32.44:366][858]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.07.27-20.32.44:368][858]PIE: Server logged in
+[2022.07.27-20.32.44:368][858]PIE: Play in editor total start time 0,058 seconds.
+[2022.07.27-20.32.45:821][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.32.45:821][ 26]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.32.45:821][ 26]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.32.45:821][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.32.45:841][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.32.45:844][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.32.45:848][ 26]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.32.45:848][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.32.45:849][ 26]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.32.45:864][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.32.45:865][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-20.32.45:914][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.07.27-20.33.42:555][544]Candidate modules for hot reload:
+[2022.07.27-20.33.42:555][544]  Turtle
+[2022.07.27-20.33.42:555][544]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,799 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.33.42:561][544]Warning: Starting HotReload took  0.0s.
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:33:49
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.07.27-20.33.49:521][335]CompilerResultsLog:   [1/4] TestConvertStringToSymbol.cpp
+[2022.07.27-20.33.49:521][335]CompilerResultsLog:   [2/4] UE4Editor-Turtle-0799.lib
+[2022.07.27-20.33.49:521][335]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0799.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0799.exp
+[2022.07.27-20.33.49:521][335]CompilerResultsLog:   [3/4] UE4Editor-Turtle-0799.dll
+[2022.07.27-20.33.49:521][335]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0799.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-0799.suppressed.exp
+[2022.07.27-20.33.49:521][335]CompilerResultsLog:   [4/4] TurtleEditor.target
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: Total time in Parallel executor: 6,15 seconds
+[2022.07.27-20.33.49:521][335]CompilerResultsLog: Total execution time: 6,84 seconds
+[2022.07.27-20.33.49:521][335]LogMainFrame: MainFrame: Module compiling took 6.971 seconds
+[2022.07.27-20.33.49:532][335]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.33.49:532][335]Display: HotReload took  7.0s.
+[2022.07.27-20.33.50:490][441]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.33.50:494][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.33.50:494][441]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:33:50)
+[2022.07.27-20.33.50:495][441]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.33.50:496][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001629s)
+[2022.07.27-20.33.50:497][441]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.33.50:497][441]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2022.07.27-20.33.50:497][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002918s)
+[2022.07.27-20.33.50:502][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.27-20.33.50:502][441]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.33.50:503][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.33.50:503][441]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.33.50:503][441]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.33.50:511][441]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.33.50:511][441]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.33.50:532][441]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.33.50:533][441]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.33.50:533][441]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.33.50:533][441]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.33.50:533][441]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.33.50:533][441]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.33.50:533][441]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.33.50:547][441]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.33.50:547][441]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.33.50:547][441]LogInit: FAudioDevice initialized.
+[2022.07.27-20.33.50:547][441]LogAudio: Display: Audio Device (ID: 18) registered with world 'Main'.
+[2022.07.27-20.33.50:556][441]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.33.50:557][441]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.33.50
+[2022.07.27-20.33.50:557][441]LogWorld: Bringing up level for play took: 0.000476
+[2022.07.27-20.33.50:557][441]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.07.27-20.33.50:559][441]PIE: Server logged in
+[2022.07.27-20.33.50:560][441]PIE: Play in editor total start time 0,066 seconds.
+[2022.07.27-20.33.51:720][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.33.51:720][571]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.33.51:720][571]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.33.51:720][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.33.51:724][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.33.51:727][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.33.51:731][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.33.51:732][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.33.51:732][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.33.51:749][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.07.27-20.33.51:825][576]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.07.27-20.33.52:372][635]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.33.52:376][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.33.52:376][635]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:33:52)
+[2022.07.27-20.33.52:376][635]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.33.52:378][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001494s)
+[2022.07.27-20.33.52:378][635]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.33.52:378][635]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2022.07.27-20.33.52:378][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002409s)
+[2022.07.27-20.33.52:383][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.07.27-20.33.52:383][635]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.33.52:383][635]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.33.52:383][635]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.33.52:384][635]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.33.52:384][635]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.33.52:393][635]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.33.52:393][635]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.33.52:411][635]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.33.52:411][635]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.33.52:411][635]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.33.52:411][635]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.33.52:412][635]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.33.52:412][635]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.33.52:412][635]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.33.52:426][635]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.33.52:426][635]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.33.52:426][635]LogInit: FAudioDevice initialized.
+[2022.07.27-20.33.52:426][635]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main'.
+[2022.07.27-20.33.52:432][635]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.33.52:433][635]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.33.52
+[2022.07.27-20.33.52:434][635]LogWorld: Bringing up level for play took: 0.000412
+[2022.07.27-20.33.52:434][635]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.07.27-20.33.52:435][635]PIE: Server logged in
+[2022.07.27-20.33.52:436][635]PIE: Play in editor total start time 0,061 seconds.
+[2022.07.27-20.33.53:349][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.33.53:350][721]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.33.53:350][721]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.33.53:350][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.33.53:360][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.33.53:363][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.33.53:366][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.33.53:367][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.33.53:367][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.33.53:384][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.07.27-20.33.53:444][726]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.07.27-20.33.53:994][783]Candidate modules for hot reload:
+[2022.07.27-20.33.53:994][783]  Turtle
+[2022.07.27-20.33.53:994][783]Launching UnrealBuildTool... [F:/ProgramFiles/Unreal4/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Turtle,9369 TurtleEditor Win64 Development -Project="F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject" "F:/ProgramFiles/GitHub/Unreal/Turtle/Turtle.uproject"  -IgnoreJunk]
+[2022.07.27-20.33.54:007][783]Warning: Starting HotReload took  0.0s.
+[2022.07.27-20.33.55:621][931]CompilerResultsLog: New page: Compilation - 28 июл. 2022 г., 02:33:55
+[2022.07.27-20.33.55:621][931]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ProgramFiles\GitHub\Unreal).
+[2022.07.27-20.33.55:622][931]CompilerResultsLog: Building TurtleEditor...
+[2022.07.27-20.33.55:622][931]CompilerResultsLog: Using Visual Studio 2019 14.32.31332 toolchain (F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.07.27-20.33.55:622][931]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.07.27-20.33.55:622][931]CompilerResultsLog:   [1/3] UE4Editor-Turtle-9369.lib
+[2022.07.27-20.33.55:622][931]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9369.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9369.exp
+[2022.07.27-20.33.55:622][931]CompilerResultsLog:   [2/3] UE4Editor-Turtle-9369.dll
+[2022.07.27-20.33.55:622][931]CompilerResultsLog:      Creating library F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9369.suppressed.lib and object F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\UE4Editor-Turtle-9369.suppressed.exp
+[2022.07.27-20.33.55:622][931]CompilerResultsLog:   [3/3] TurtleEditor.target
+[2022.07.27-20.33.55:622][931]CompilerResultsLog: Total time in Parallel executor: 0,88 seconds
+[2022.07.27-20.33.55:622][931]CompilerResultsLog: Total execution time: 1,48 seconds
+[2022.07.27-20.33.55:622][931]LogMainFrame: MainFrame: Module compiling took 1.632 seconds
+[2022.07.27-20.33.55:642][931]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Turtle' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2022.07.27-20.33.55:642][931]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.07.27-20.33.55:671][931]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3603 classes and 861 folders.
+[2022.07.27-20.33.55:671][931]Display: HotReload took  1.7s.
+[2022.07.27-20.34.00:731][516]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.27-20.34.00:735][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-20.34.00:735][516]PIE: New page: PIE session: Main (28 июл. 2022 г., 02:34:00)
+[2022.07.27-20.34.00:735][516]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.34.00:737][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001534s)
+[2022.07.27-20.34.00:738][516]LogAIModule: Creating AISystem for world Main
+[2022.07.27-20.34.00:738][516]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2022.07.27-20.34.00:738][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.002594s)
+[2022.07.27-20.34.00:742][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.27-20.34.00:743][516]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-20.34.00:743][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-20.34.00:743][516]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.27-20.34.00:743][516]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.27-20.34.00:751][516]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.27-20.34.00:751][516]LogAudioMixer: Display: 1: FrontRight
+[2022.07.27-20.34.00:770][516]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2022.07.27-20.34.00:770][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-20.34.00:770][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-20.34.00:770][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-20.34.00:770][516]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.27-20.34.00:770][516]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.27-20.34.00:771][516]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2022.07.27-20.34.00:784][516]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.27-20.34.00:784][516]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.27-20.34.00:784][516]LogInit: FAudioDevice initialized.
+[2022.07.27-20.34.00:784][516]LogAudio: Display: Audio Device (ID: 20) registered with world 'Main'.
+[2022.07.27-20.34.00:793][516]LogLoad: Game class is 'GameModeBase'
+[2022.07.27-20.34.00:795][516]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.07.27-23.34.00
+[2022.07.27-20.34.00:795][516]LogWorld: Bringing up level for play took: 0.000408
+[2022.07.27-20.34.00:795][516]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.07.27-20.34.00:796][516]PIE: Server logged in
+[2022.07.27-20.34.00:797][516]PIE: Play in editor total start time 0,063 seconds.
+[2022.07.27-20.34.04:180][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.34.04:180][917]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main
+[2022.07.27-20.34.04:180][917]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-20.34.04:180][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.34.04:185][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-20.34.04:188][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-20.34.04:192][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-20.34.04:193][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.34.04:193][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.27-20.34.04:208][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-20.34.04:209][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.07.27-20.34.04:275][923]LogPlayLevel: Display: Destroying online subsystem :Context_22
