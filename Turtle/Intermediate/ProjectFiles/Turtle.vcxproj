@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E47CD7DD-F1BC-4F80-ABCC-2BEE51964AEF}</ProjectGuid>
+    <ProjectGuid>{5E86F991-9514-48EC-8230-D2B389A7AA5B}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Turtle</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -287,19 +287,6 @@
     <None Include="..\..\Turtle.uproject"/>
     <None Include="..\..\Source\Turtle.Target.cs"/>
     <None Include="..\..\Source\TurtleEditor.Target.cs"/>
-    <None Include="..\..\Config\DefaultEditor.ini"/>
-    <None Include="..\..\Config\DefaultEngine.ini"/>
-    <None Include="..\..\Config\DefaultGame.ini"/>
-    <None Include="..\..\Platforms\Android\Config\AndroidEngine.ini"/>
-    <None Include="..\..\Platforms\IOS\Config\IOSEngine.ini"/>
-    <None Include="..\..\Platforms\Linux\Config\LinuxEngine.ini"/>
-    <None Include="..\..\Platforms\Mac\Config\MacEngine.ini"/>
-    <None Include="..\..\Platforms\PS4\Config\PS4Engine.ini"/>
-    <None Include="..\..\Platforms\PS5\Config\PS5Engine.ini"/>
-    <None Include="..\..\Platforms\Switch\Config\SwitchEngine.ini"/>
-    <None Include="..\..\Platforms\Windows\Config\WindowsEngine.ini"/>
-    <None Include="..\..\Platforms\XboxOne\Config\XboxOneEngine.ini"/>
-    <None Include="..\..\Platforms\XSX\Config\XSXEngine.ini"/>
     <ClCompile Include="..\..\Source\Turtle\TestConvertStringToSymbol.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Turtle\Definitions.Turtle.h;$(SolutionDir)Intermediate\Build\Win64\TurtleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
