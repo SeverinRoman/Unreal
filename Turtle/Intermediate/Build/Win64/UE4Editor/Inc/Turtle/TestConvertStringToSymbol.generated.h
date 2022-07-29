@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FColor;
 #ifdef TURTLE_TestConvertStringToSymbol_generated_h
 #error "TestConvertStringToSymbol.generated.h already included, missing '#pragma once' in TestConvertStringToSymbol.h"
 #endif

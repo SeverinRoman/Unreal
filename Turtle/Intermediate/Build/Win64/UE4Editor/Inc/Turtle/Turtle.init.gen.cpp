@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTurtle_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3A4482E9,
+				0x5BCB993E,
 				0x05E50338,
 				METADATA_PARAMS(nullptr, 0)
 			};

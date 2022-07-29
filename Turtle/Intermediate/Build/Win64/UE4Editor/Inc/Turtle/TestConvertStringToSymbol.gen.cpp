@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 	TURTLE_API UClass* Z_Construct_UClass_ATestConvertStringToSymbol();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Turtle();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 // End Cross Module References
 	DEFINE_FUNCTION(ATestConvertStringToSymbol::execWriteResult)
 	{
@@ -37,9 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 	DEFINE_FUNCTION(ATestConvertStringToSymbol::execShowDebug)
 	{
 		P_GET_PROPERTY(FStrProperty,Z_Param_showString);
+		P_GET_STRUCT(FColor,Z_Param_color);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->ShowDebug(Z_Param_showString);
+		P_THIS->ShowDebug(Z_Param_showString,Z_Param_color);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(ATestConvertStringToSymbol::execShowResult)
@@ -65,8 +67,10 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		struct TestConvertStringToSymbol_eventShowDebug_Parms
 		{
 			FString showString;
+			FColor color;
 		};
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_showString;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_color;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -74,15 +78,17 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::NewProp_showString = { "showString", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventShowDebug_Parms, showString), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::NewProp_color = { "color", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TestConvertStringToSymbol_eventShowDebug_Parms, color), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::NewProp_showString,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::NewProp_color,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "TestConvertStringToSymbol.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATestConvertStringToSymbol, nullptr, "ShowDebug", nullptr, nullptr, sizeof(TestConvertStringToSymbol_eventShowDebug_Parms), Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATestConvertStringToSymbol, nullptr, "ShowDebug", nullptr, nullptr, sizeof(TestConvertStringToSymbol_eventShowDebug_Parms), Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -219,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Turtle,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATestConvertStringToSymbol_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug, "ShowDebug" }, // 2328233851
+		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_ShowDebug, "ShowDebug" }, // 1677941684
 		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_ShowResult, "ShowResult" }, // 1243967279
 		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_SymbolCount, "SymbolCount" }, // 1179664788
 		{ &Z_Construct_UFunction_ATestConvertStringToSymbol_WriteResult, "WriteResult" }, // 2542129307
@@ -285,7 +291,7 @@ void EmptyLinkFunctionForGeneratedCodeTestConvertStringToSymbol() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATestConvertStringToSymbol, 4105476646);
+	IMPLEMENT_CLASS(ATestConvertStringToSymbol, 2545629775);
 	template<> TURTLE_API UClass* StaticClass<ATestConvertStringToSymbol>()
 	{
 		return ATestConvertStringToSymbol::StaticClass();

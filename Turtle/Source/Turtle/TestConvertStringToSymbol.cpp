@@ -27,9 +27,9 @@ void ATestConvertStringToSymbol::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ATestConvertStringToSymbol::ShowDebug(FString showString)
+void ATestConvertStringToSymbol::ShowDebug(FString showString, FColor color)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, showString);
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, color, showString);
 }
 
 FString ATestConvertStringToSymbol::SymbolCount(FString text)
@@ -86,8 +86,8 @@ void ATestConvertStringToSymbol::ShowResult()
 
 		FString result = SymbolCount(strings[i]);
 
-		ShowDebug(result);
-		ShowDebug(strings[i]);
+		ShowDebug(result, FColor::Green);
+		ShowDebug(strings[i], FColor::Red);
 	}
 }
 

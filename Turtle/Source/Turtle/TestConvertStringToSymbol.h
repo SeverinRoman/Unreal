@@ -37,7 +37,7 @@ public:
 	void ShowResult();
 
 	UFUNCTION()
-	void ShowDebug(FString showString);
+	void ShowDebug(FString showString, FColor color);
 
 	UFUNCTION()
 	FString SymbolCount(FString text);
