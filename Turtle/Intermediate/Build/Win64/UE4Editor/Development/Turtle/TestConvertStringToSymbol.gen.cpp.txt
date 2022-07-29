@@ -1,5 +1,0 @@
-F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\Definitions.Turtle.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\ProgramFiles\GitHub\Unreal\Turtle\Source\Turtle/TestConvertStringToSymbol.h
-F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Inc\Turtle\TestConvertStringToSymbol.generated.h

@@ -1,9 +1,0 @@
-F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Development\Turtle\Definitions.Turtle.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\ProgramFiles\GitHub\Unreal\Turtle\Source\Turtle/TurtleGameModeBase.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-F:\ProgramFiles\Unreal4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-F:\ProgramFiles\GitHub\Unreal\Turtle\Intermediate\Build\Win64\UE4Editor\Inc\Turtle\TurtleGameModeBase.generated.h
