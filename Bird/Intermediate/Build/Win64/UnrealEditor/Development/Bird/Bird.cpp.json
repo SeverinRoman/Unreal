@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "f:\\programfiles\\github\\unreal\\bird\\source\\bird\\bird.cpp",
+        "Source": "f:\\programfiles\\github\\unreal\\repository\\unreal\\bird\\source\\bird\\bird.cpp",
         "ProvidedModule": "",
-        "PCH": "f:\\programfiles\\github\\unreal\\bird\\intermediate\\build\\win64\\birdeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "f:\\programfiles\\github\\unreal\\repository\\unreal\\bird\\intermediate\\build\\win64\\birdeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "f:\\programfiles\\github\\unreal\\bird\\intermediate\\build\\win64\\unrealeditor\\development\\bird\\definitions.bird.h",
-            "f:\\programfiles\\github\\unreal\\bird\\source\\bird\\bird.h"
+            "f:\\programfiles\\github\\unreal\\repository\\unreal\\bird\\intermediate\\build\\win64\\unrealeditor\\development\\bird\\definitions.bird.h",
+            "f:\\programfiles\\github\\unreal\\repository\\unreal\\bird\\source\\bird\\bird.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

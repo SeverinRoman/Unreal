@@ -1,7 +1,7 @@
-F:\ProgramFiles\GitHub\Unreal\Bird\Source\Bird\Bird.cpp
+F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Source\Bird\Bird.cpp
 /I .
-/I F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Inc\Bird
-/I F:\ProgramFiles\GitHub\Unreal\Bird\Source
+/I F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Inc\Bird
+/I F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -267,18 +267,18 @@ F:\ProgramFiles\GitHub\Unreal\Bird\Source\Bird\Bird.cpp
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.32.31326\INCLUDE"
+/I "F:\ProgramFiles\Visual Studio\VC\Tools\MSVC\14.33.31629\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Definitions.Bird.h"
-/Yu"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Bird.cpp.obj"
-/sourceDependencies F:\ProgramFiles\GitHub\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Bird.cpp.json
+/FI"F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Definitions.Bird.h"
+/Yu"F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\BirdEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Bird.cpp.obj"
+/sourceDependencies F:\ProgramFiles\GitHub\Unreal\repository\Unreal\Bird\Intermediate\Build\Win64\UnrealEditor\Development\Bird\Bird.cpp.json
 /Zc:inline
 /nologo
 /Oi
